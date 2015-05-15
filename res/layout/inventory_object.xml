@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginStart="10dp"
+    android:orientation="horizontal" >
+
+    <!-- サービス名 -->
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical" />
+
+    <!-- 消費ボタン -->
+
+    <Button
+        android:id="@+id/consume"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/consume" />
+
+    <!-- 購入ボタン -->
+
+    <Button
+        android:id="@+id/purchase"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/purchase" />
+
+</LinearLayout>

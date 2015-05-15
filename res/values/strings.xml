@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">appmartアプリ内課金V2 サンプル</string>
+    <string name="hello_world">アプリ内課金V2</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="consume">消費</string>
+    <string name="purchase">購入</string>
+    <string name="get_inventory">情報取得</string>
+
+</resources>
